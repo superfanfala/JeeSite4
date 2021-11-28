@@ -22,6 +22,7 @@ killSpringBoot
 ## Maven 编译
 cd ${WORKSPACE}/root
 echo ${WORKSPACE}/root
+pwd
 mvn clean install
 
 ## Maven 运行
